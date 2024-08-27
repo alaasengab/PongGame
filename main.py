@@ -3,6 +3,18 @@ import time
 from paddel import Paddel
 from ball import Ball
 from scoreboard import score
+#--------------------------PongGame Description------------------------#
+"""Pong is a classic arcade video game that involves two players controlling paddles on opposite sides of a screen, attempting to hit a ball back and forth. The objective is to score points by causing the ball to hit the opponent's paddle.
+
+Here's a basic breakdown of the game mechanics:
+
+Players: There are two players, each controlling a paddle.
+Ball: A small, bouncing ball moves back and forth across the screen.
+Scoring: When the ball hits a player's paddle, it bounces back. If the ball goes past a player's paddle without hitting it, the opposing player scores a point.
+Game Over: The game ends when one player reaches a predetermined score limit.
+
+"""
+#--------------------------------------------------------------------------#
 
 screen = Screen()
 screen.bgcolor("black")
